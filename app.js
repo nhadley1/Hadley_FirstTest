@@ -1,3 +1,4 @@
+//Question 3 url https://github.com/nhadley1/Hadley_FirstTest.git
 // Question #1
 let students = [
     {id: 1, name: "John", major: "CS"},
@@ -5,7 +6,7 @@ let students = [
     {id: 3, name: "Sally", major: "Pharmacy"}
 ]
 
-students.push({id: 4, name: "Sarah", major: "CS"});
+students.push({id: 4, name: "Sarah", major: "Business"});
 
 displayStudents = () => {
     students.forEach((item) => {
